@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Quiz } from './quiz.model';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'quiz-app';
+
+  public quiz: any;
+  public showResults: boolean = false;
+  public currentQuestionIndex = -1;
+
+  updateChoice(evt:any) {
+
+  }
+
 }

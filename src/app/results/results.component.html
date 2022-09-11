@@ -1,0 +1,16 @@
+<div class="results-container">
+    <mat-card>
+        <mat-card-title class="title" style="margin-bottom: 20px">Correct answers: {{ this.answers | correctAnswer }} of
+            {{ this.answers.values.length }}</mat-card-title>
+        <mat-card-content class="answer" *ngFor="let answer of answers.values; index as i"
+            [ngClass]="{ correct: answer.isCorrect, wrong: !answer.isCorrect }">
+            <h2 style="margin-bottom: 5px">{{ this.questions[i].label | uppercase }}</h2>
+            <p>{{ this.answer.value != '' ? this.answer.value : '- not answered -' }}</p>
+        </mat-card-content>
+        <mat-card-actions>
+            <button routerLink="/welcome" mat-raised-button color="warn" class="btn btn-primary">
+                <a>Choose another quiz</a>
+            </button>
+        </mat-card-actions>
+    </mat-card>
+</div>

@@ -1,0 +1,28 @@
+<div *ngIf="quiz && !questions" class="spinner-grow text-primary">
+    Loading...
+</div>
+
+<div *ngIf="questions">
+    <div class="questions" *ngIf="!this.showResults">
+        <app-question-form [question]="this.questions[this.currentQuestionIndex]"
+            (onChoiceMade)="this.updateChoice($event)">
+        </app-question-form>
+        <!-- <div>
+      <button
+        mat-raised-button
+        color="primary"
+        class="btn btn-primary"
+        (click)="this.nextOrViewResults()"
+        [disabled]="!this.answers.values[currentQuestionIndex]"
+      >
+        {{
+          currentQuestionIndex === questions.length - 1
+            ? "View results"
+            : "Next"
+        }}
+      </button>
+    </div> -->
+    </div>
+
+    <app-results *ngIf="this.showResults" [answers]="this.answers" [questions]="this.questions"></app-results>
+</div>

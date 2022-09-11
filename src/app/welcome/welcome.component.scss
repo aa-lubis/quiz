@@ -1,0 +1,13 @@
+.welcome-container {
+    max-width: 600px;
+    margin: 100px auto;
+    text-align: center;
+
+    > mat-card {
+        margin: 0px 10px;
+    }
+}
+
+.quiz-card {
+    background-color: lightblue;
+}

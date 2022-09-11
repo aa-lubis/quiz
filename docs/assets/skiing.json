@@ -1,0 +1,38 @@
+[
+  {
+    "label": "What is a twin tip",
+    "choices": [
+      {"value": "wicked trick", "isCorrect": false},
+      {"value": "cambered ski", "isCorrect": false},
+      {"value": "race carver", "isCorrect": false},
+      {"value": "both ski ends are equally shaped", "isCorrect": true}
+    ]
+  },
+  {
+    "label": "Who was Toni Sailer?",
+    "choices": [
+      {"value": "Nobody", "isCorrect": false},
+      {"value": "A famous actor and world class skier", "isCorrect": true},
+      {"value": "The champion of the freeride world tour 2018", "isCorrect": false},
+      {"value": "A famous ski shaper", "isCorrect": false}
+    ]
+  },
+  {
+    "label": "What is the difference between a race carver and a powder ski?",
+    "choices": [
+      {"value": "Length, shape, camber architecture", "isCorrect": true},
+      {"value": "Just its weight", "isCorrect": false},
+      {"value": "The race carver is better for heavy snow conditions", "isCorrect": false},
+      {"value": "The powder ski works better on tace tracks", "isCorrect": false}
+    ]
+  },
+  {
+    "label": "What is Mikalea Shiffrins new title?",
+    "choices": [
+      {"value": "Winningest slalom skier in history of the world cup", "isCorrect": true},
+      {"value": "Fastest women on skies", "isCorrect": false},
+      {"value": "World cup champion", "isCorrect": false},
+      {"value": "Best newcomer ", "isCorrect": false}
+    ]
+  }
+]

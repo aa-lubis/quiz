@@ -1,4 +1,6 @@
-# QuizApp
+# Simple Quiz App
+
+Simple Quiz App inspired by @evagrean's [work](https://github.com/evagrean/quiz-app). Added simple animation, timer, and clickable option rather than classic radio button. I made it for my daughter Ghayda (Aychan), so expect the pink theme as it is her favourite color :)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
 
