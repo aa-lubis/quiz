@@ -55,7 +55,7 @@
                 }
               ],
               "outputHashing": "all",
-              "baseHref": "./simple-quiz/"
+              "baseHref": "./"
             },
             "development": {
               "buildOptimizer": false,
