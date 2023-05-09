@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { QuestionsService } from '../questions.service';
-import { Answers, Choice, Question, Quiz } from '../quiz.model';
+import { QuestionsService } from '../shared/questions.service';
+import { Answers, Choice, Question, Quiz } from '../shared/quiz.model';
 
 @Component({
   selector: 'app-questions',

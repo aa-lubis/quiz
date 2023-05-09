@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Quiz } from './quiz.model';
 
 @Component({
   selector: 'app-root',

@@ -8,7 +8,7 @@ import { QuestionFormComponent } from './question-form/question-form.component';
 import { QuestionsComponent } from './questions/questions.component';
 import { ResultsComponent } from './results/results.component';
 import { WelcomeComponent } from './welcome/welcome.component';
-import { CorrectAnswerPipe } from './correct-answer.pipe';
+import { CorrectAnswerPipe } from './shared/correct-answer.pipe';
 import { HttpClientModule } from '@angular/common/http';
 import { MatCardModule } from '@angular/material/card';
 import { MatProgressBarModule } from '@angular/material/progress-bar';

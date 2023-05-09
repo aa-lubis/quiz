@@ -1,0 +1,335 @@
+[
+  {
+    "label": "Apa nama ibukota provinsi Banda Aceh?",
+    "choices": [
+      {"value": "Banda Aceh", "isCorrect": true},
+      {"value": "Pangkal Pinang", "isCorrect": false},
+      {"value": "Sorong", "isCorrect": false},
+      {"value": "Bandung", "isCorrect": false}
+    ]
+  },
+  {
+    "label": "Apa nama ibukota provinsi Bali?",
+    "choices": [
+      {"value": "Denpasar", "isCorrect": true},
+      {"value": "Bengkulu", "isCorrect": false},
+      {"value": "Pontianak", "isCorrect": false},
+      {"value": "Palembang", "isCorrect": false}
+    ]
+  },
+  {
+    "label": "Apa nama ibukota provinsi Kepulauan Bangka Belitung?",
+    "choices": [
+      {"value": "Pangkal Pinang", "isCorrect": true},
+      {"value": "Merauke", "isCorrect": false},
+      {"value": "Makassar", "isCorrect": false},
+      {"value": "Pekanbaru", "isCorrect": false}
+    ]
+  },
+  {
+    "label": "Apa nama ibukota provinsi Banten?",
+    "choices": [
+      {"value": "Serang", "isCorrect": true},
+      {"value": "Ambon", "isCorrect": false},
+      {"value": "Jakarta", "isCorrect": false},
+      {"value": "Wamena", "isCorrect": false}
+    ]
+  },
+  {
+    "label": "Apa nama ibukota provinsi Bengkulu?",
+    "choices": [
+      {"value": "Bengkulu", "isCorrect": true},
+      {"value": "Palangkaraya", "isCorrect": false},
+      {"value": "Jayapura", "isCorrect": false},
+      {"value": "Makassar", "isCorrect": false}
+    ]
+  },
+  {
+    "label": "Apa nama ibukota provinsi Jawa Tengah?",
+    "choices": [
+      {"value": "Semarang", "isCorrect": true},
+      {"value": "Mamuju", "isCorrect": false},
+      {"value": "Serang", "isCorrect": false},
+      {"value": "Jambi", "isCorrect": false}
+    ]
+  },
+  {
+    "label": "Apa nama ibukota provinsi Kalimantan Tengah?",
+    "choices": [
+      {"value": "Palangkaraya", "isCorrect": true},
+      {"value": "Padang", "isCorrect": false},
+      {"value": "Surabaya", "isCorrect": false},
+      {"value": "Kupang", "isCorrect": false}
+    ]
+  },
+  {
+    "label": "Apa nama ibukota provinsi Papua Tengah?",
+    "choices": [
+      {"value": "Nabire", "isCorrect": true},
+      {"value": "Ambon", "isCorrect": false},
+      {"value": "Kendari", "isCorrect": false},
+      {"value": "Tanjung Pinang", "isCorrect": false}
+    ]
+  },
+  {
+    "label": "Apa nama ibukota provinsi Sulawesi Tengah?",
+    "choices": [
+      {"value": "Palu", "isCorrect": true},
+      {"value": "Pekanbaru", "isCorrect": false},
+      {"value": "Jayapura", "isCorrect": false},
+      {"value": "Banjarbaru", "isCorrect": false}
+    ]
+  },
+  {
+    "label": "Apa nama ibukota provinsi Jawa Timur?",
+    "choices": [
+      {"value": "Surabaya", "isCorrect": true},
+      {"value": "Semarang", "isCorrect": false},
+      {"value": "Sofifi", "isCorrect": false},
+      {"value": "Denpasar", "isCorrect": false}
+    ]
+  },
+  {
+    "label": "Apa nama ibukota provinsi Kalimantan Timur?",
+    "choices": [
+      {"value": "Samarinda", "isCorrect": true},
+      {"value": "Surabaya", "isCorrect": false},
+      {"value": "Banda Aceh", "isCorrect": false},
+      {"value": "Palembang", "isCorrect": false}
+    ]
+  },
+  {
+    "label": "Apa nama ibukota provinsi Nusa Tenggara Timur?",
+    "choices": [
+      {"value": "Kupang", "isCorrect": true},
+      {"value": "Kendari", "isCorrect": false},
+      {"value": "Yogyakarta", "isCorrect": false},
+      {"value": "Bengkulu", "isCorrect": false}
+    ]
+  },
+  {
+    "label": "Apa nama ibukota provinsi Gorontalo?",
+    "choices": [
+      {"value": "Gorontalo", "isCorrect": true},
+      {"value": "Jambi", "isCorrect": false},
+      {"value": "Manokwari", "isCorrect": false},
+      {"value": "Medan", "isCorrect": false}
+    ]
+  },
+  {
+    "label": "Apa nama ibukota provinsi Papua Pegunungan?",
+    "choices": [
+      {"value": "Wamena", "isCorrect": true},
+      {"value": "Medan", "isCorrect": false},
+      {"value": "Mataram", "isCorrect": false},
+      {"value": "Manokwari", "isCorrect": false}
+    ]
+  },
+  {
+    "label": "Apa nama ibukota provinsi Jambi?",
+    "choices": [
+      {"value": "Jambi", "isCorrect": true},
+      {"value": "Palembang", "isCorrect": false},
+      {"value": "Wamena", "isCorrect": false},
+      {"value": "Banjarbaru", "isCorrect": false}
+    ]
+  },
+  {
+    "label": "Apa nama ibukota provinsi Lampung?",
+    "choices": [
+      {"value": "Bandar Lampung", "isCorrect": true},
+      {"value": "Mamuju", "isCorrect": false},
+      {"value": "Jambi", "isCorrect": false},
+      {"value": "Bengkulu", "isCorrect": false}
+    ]
+  },
+  {
+    "label": "Apa nama ibukota provinsi Maluku?",
+    "choices": [
+      {"value": "Ambon", "isCorrect": true},
+      {"value": "Banda Aceh", "isCorrect": false},
+      {"value": "Semarang", "isCorrect": false},
+      {"value": "Samarinda", "isCorrect": false}
+    ]
+  },
+  {
+    "label": "Apa nama ibukota provinsi Kalimantan Utara?",
+    "choices": [
+      {"value": "Tanjung Selor", "isCorrect": true},
+      {"value": "Palembang", "isCorrect": false},
+      {"value": "Nabire", "isCorrect": false},
+      {"value": "Manado", "isCorrect": false}
+    ]
+  },
+  {
+    "label": "Apa nama ibukota provinsi Maluku Utara?",
+    "choices": [
+      {"value": "Sofifi", "isCorrect": true},
+      {"value": "Palu", "isCorrect": false},
+      {"value": "Palangkaraya", "isCorrect": false},
+      {"value": "Wamena", "isCorrect": false}
+    ]
+  },
+  {
+    "label": "Apa nama ibukota provinsi Sulawesi Utara?",
+    "choices": [
+      {"value": "Manado", "isCorrect": true},
+      {"value": "Gorontalo", "isCorrect": false},
+      {"value": "Yogyakarta", "isCorrect": false},
+      {"value": "Jayapura", "isCorrect": false}
+    ]
+  },
+  {
+    "label": "Apa nama ibukota provinsi Sumatera Utara?",
+    "choices": [
+      {"value": "Medan", "isCorrect": true},
+      {"value": "Pangkal Pinang", "isCorrect": false},
+      {"value": "Yogyakarta", "isCorrect": false},
+      {"value": "Tanjung Selor", "isCorrect": false}
+    ]
+  },
+  {
+    "label": "Apa nama ibukota provinsi Papua?",
+    "choices": [
+      {"value": "Jayapura", "isCorrect": true},
+      {"value": "Tanjung Pinang", "isCorrect": false},
+      {"value": "Ambon", "isCorrect": false},
+      {"value": "Gorontalo", "isCorrect": false}
+    ]
+  },
+  {
+    "label": "Apa nama ibukota provinsi Riau?",
+    "choices": [
+      {"value": "Pekanbaru", "isCorrect": true},
+      {"value": "Jambi", "isCorrect": false},
+      {"value": "Palangkaraya", "isCorrect": false},
+      {"value": "Merauke", "isCorrect": false}
+    ]
+  },
+  {
+    "label": "Apa nama ibukota provinsi Kepulauan Riau?",
+    "choices": [
+      {"value": "Tanjung Pinang", "isCorrect": true},
+      {"value": "Tanjung Selor", "isCorrect": false},
+      {"value": "Pekanbaru", "isCorrect": false},
+      {"value": "Medan", "isCorrect": false}
+    ]
+  },
+  {
+    "label": "Apa nama ibukota provinsi Sulawesi Tenggara?",
+    "choices": [
+      {"value": "Kendari", "isCorrect": true},
+      {"value": "Kupang", "isCorrect": false},
+      {"value": "Gorontalo", "isCorrect": false},
+      {"value": "Samarinda", "isCorrect": false}
+    ]
+  },
+  {
+    "label": "Apa nama ibukota provinsi Kalimantan Selatan?",
+    "choices": [
+      {"value": "Banjarbaru", "isCorrect": true},
+      {"value": "Banda Aceh", "isCorrect": false},
+      {"value": "Bandung", "isCorrect": false},
+      {"value": "Denpasar", "isCorrect": false}
+    ]
+  },
+  {
+    "label": "Apa nama ibukota provinsi Papua Selatan?",
+    "choices": [
+      {"value": "Merauke", "isCorrect": true},
+      {"value": "Ambon", "isCorrect": false},
+      {"value": "Medan", "isCorrect": false},
+      {"value": "Palembang", "isCorrect": false}
+    ]
+  },
+  {
+    "label": "Apa nama ibukota provinsi Sulawesi Selatan?",
+    "choices": [
+      {"value": "Makassar", "isCorrect": true},
+      {"value": "Semarang", "isCorrect": false},
+      {"value": "Mamuju", "isCorrect": false},
+      {"value": "Manado", "isCorrect": false}
+    ]
+  },
+  {
+    "label": "Apa nama ibukota provinsi Sumatera Selatan?",
+    "choices": [
+      {"value": "Palembang", "isCorrect": true},
+      {"value": "Jambi", "isCorrect": false},
+      {"value": "Padang", "isCorrect": false},
+      {"value": "Merauke", "isCorrect": false}
+    ]
+  },
+  {
+    "label": "Apa nama ibukota provinsi Papua Barat Daya?",
+    "choices": [
+      {"value": "Sorong", "isCorrect": true},
+      {"value": "Ambon", "isCorrect": false},
+      {"value": "Palangkaraya", "isCorrect": false},
+      {"value": "Surabaya", "isCorrect": false}
+    ]
+  },
+  {
+    "label": "Apa nama ibukota provinsi Jawa Barat?",
+    "choices": [
+      {"value": "Bandung", "isCorrect": true},
+      {"value": "Gorontalo", "isCorrect": false},
+      {"value": "Semarang", "isCorrect": false},
+      {"value": "Surabaya", "isCorrect": false}
+    ]
+  },
+  {
+    "label": "Apa nama ibukota provinsi Kalimantan Barat?",
+    "choices": [
+      {"value": "Pontianak", "isCorrect": true},
+      {"value": "Mamuju", "isCorrect": false},
+      {"value": "Samarinda", "isCorrect": false},
+      {"value": "Tanjung Pinang", "isCorrect": false}
+    ]
+  },
+  {
+    "label": "Apa nama ibukota provinsi Nusa Tenggara Barat?",
+    "choices": [
+      {"value": "Mataram", "isCorrect": true},
+      {"value": "Makassar", "isCorrect": false},
+      {"value": "Denpasar", "isCorrect": false},
+      {"value": "Gorontalo", "isCorrect": false}
+    ]
+  },
+  {
+    "label": "Apa nama ibukota provinsi Papua Barat?",
+    "choices": [
+      {"value": "Manokwari", "isCorrect": true},
+      {"value": "Mamuju", "isCorrect": false},
+      {"value": "Pontianak", "isCorrect": false},
+      {"value": "Palangkaraya", "isCorrect": false}
+    ]
+  },
+  {
+    "label": "Apa nama ibukota provinsi Sulawesi Barat?",
+    "choices": [
+      {"value": "Mamuju", "isCorrect": true},
+      {"value": "Wamena", "isCorrect": false},
+      {"value": "Ambon", "isCorrect": false},
+      {"value": "Banda Aceh", "isCorrect": false}
+    ]
+  },
+  {
+    "label": "Apa nama ibukota provinsi Sumatera Barat?",
+    "choices": [
+      {"value": "Padang", "isCorrect": true},
+      {"value": "Medan", "isCorrect": false},
+      {"value": "Palembang", "isCorrect": false},
+      {"value": "Palu", "isCorrect": false}
+    ]
+  },
+  {
+    "label": "Apa nama ibukota provinsi DI (Daerah Istimewa) Yogyakarta?",
+    "choices": [
+      {"value": "Yogyakarta", "isCorrect": true},
+      {"value": "Jayapura", "isCorrect": false},
+      {"value": "Surabaya", "isCorrect": false},
+      {"value": "Tanjung Selor", "isCorrect": false}
+    ]
+  }
+]

@@ -1,10 +1,10 @@
 <div *ngIf="question" style="text-align: center">
   <mat-progress-bar mode="determinate" [value]="progressValue"></mat-progress-bar>
   <div class="question-form-container">
-    <h1 class="animate__animated" [ngClass]="{ 'animate__bounceIn' : cssBounce }" style="margin: 100px 0px 50px; font-size: 3em"><span>{{ question.label }}</span></h1>
-    <mat-grid-list [cols]="breakpoint" rowHeight="180px" (window:resize)="onResize($event)">
+    <h1 class="question animate__animated" [ngClass]="{ 'animate__bounceIn' : cssBounce }"><span>{{ question.label }}</span></h1>
+    <mat-grid-list [cols]="breakpoint" (window:resize)="onResize($event)">
       <mat-grid-tile *ngFor="let choice of this.question.choices">
-        <mat-card class="choice animate__animated animate__flip" (click)="onChange(choice)">
+        <mat-card class="animate__animated animate__flip" (click)="onChange(choice)">
           <mat-card-content>
             {{ choice.value }}
           </mat-card-content>

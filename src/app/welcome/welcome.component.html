@@ -1,23 +1,23 @@
 <div class="welcome-container">
-    <mat-card>
-        <mat-card-subtitle align="center">
-            <h1 class="md-display-2">Aychan's Quiz!</h1>
-        </mat-card-subtitle>
-        <div class="flex-container" fxLayout="row" fxLayout.xs="column">
-            <mat-card class="quiz-card">
-                <!-- <a routerLink="/maths" class="img-link">
+  <mat-card>
+    <mat-card-subtitle align="center">
+      <h1 class="md-display-2">Aychan's Quiz!</h1>
+    </mat-card-subtitle>
+    <div class="flex-container" fxLayout="row" fxLayout.xs="column">
+      <mat-card class="quiz-card" *ngFor="let item of quizzes">
+        <!-- <a routerLink="/maths" class="img-link">
                 <img mat-card-image src="assets/images/maths.png" alt="picture of math elements">
             </a> -->
-                <mat-card-title>
-                    Math
-                </mat-card-title>
-                <mat-card-content>
-                    10 math's multiplication questions. Each question is limited 5 seconds to answer
-                </mat-card-content>
-                <mat-card-actions>
-                    <button routerLink="/maths" color="warn" mat-raised-button>Start</button>
-                </mat-card-actions>
-            </mat-card>
-        </div>
-    </mat-card>
+        <mat-card-title>
+          {{ item.label }}
+        </mat-card-title>
+        <mat-card-content>
+          {{ item.description }}
+        </mat-card-content>
+        <mat-card-actions>
+          <button [routerLink]="['/' + item.name]" color="warn" mat-raised-button>Start</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </mat-card>
 </div>

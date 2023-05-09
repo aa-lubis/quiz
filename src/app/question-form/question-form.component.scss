@@ -1,22 +1,29 @@
-.question-form-container {
-    max-width: 800px;
-    margin: 10px auto;
+// .question-form-container {
+//     max-width: 800px;
+//     margin: 10px auto;
+// }
+
+h1.question {
+    margin-top: 50px;
+    font-size: 2rem;
 }
 
 mat-card {
-    width: 40%;
-    height: 40%;
+  width: calc(100% - 70px);
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    &.choice {
-        cursor: pointer;
+  &.choice {
+    cursor: pointer;
 
-        &:hover {
-            background-color: #ffed9f;
-        }
+    &:hover {
+      background-color: #ffed9f;
     }
-}
+  }
 
-mat-card-content {
-    padding-top: 25px;
-    font-size: 60px;
+  mat-card-content {
+    font-size: 1.5rem;
+  }
 }

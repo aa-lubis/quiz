@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { QuestionsService } from '../questions.service';
-import { Quiz } from '../quiz.model';
+import { QuestionsService } from '../shared/questions.service';
+import { Quiz } from '../shared/quiz.model';
 
 @Component({
   selector: 'app-welcome',

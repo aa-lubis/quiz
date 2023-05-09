@@ -1,5 +1,5 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
-import { Choice, Question } from '../quiz.model';
+import { Choice, Question } from '../shared/quiz.model';
 
 @Component({
   selector: 'app-question-form',
@@ -24,7 +24,7 @@ export class QuestionFormComponent implements OnInit {
   ngOnInit() {
     this.breakpoint = (window.innerWidth <= 700) ? 2 : 4;
     this.runningTimer = this.timer;
-    this.runTimer();
+    // this.runTimer();
   }
 
   onResize(event: any) {

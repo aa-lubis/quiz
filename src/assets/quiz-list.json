@@ -2,7 +2,13 @@
   {
     "label": "Maths",
     "name": "maths",
-    "description": "Questions about maths",
+    "description": "10 math's multiplication questions. Each question is limited 5 seconds to answer",
     "fileName": "maths.json"
+  },
+  {
+    "label": "Indonesia's province capitals",
+    "name": "indonesia-province-capital",
+    "description": "Test your knowledge of Indonesia's province capitals. Each question is limited 5 seconds to answer",
+    "fileName": "indonesia-province-capital.json"
   }
 ]
