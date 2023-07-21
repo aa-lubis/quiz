@@ -1095,7 +1095,7 @@
     "label": "What is 8 x 9?",
     "choices": [
       {
-        "value": "64",
+        "value": "72",
         "isCorrect": true
       },
       {
